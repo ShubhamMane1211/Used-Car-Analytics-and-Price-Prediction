@@ -1,0 +1,35 @@
+{
+    "categorical_features": [
+        "Brand",
+        "Model Name",
+        "Model Variant",
+        "Car Type",
+        "Transmission",
+        "Fuel Type",
+        "Owner",
+        "State",
+        "Accidental"
+    ],
+    "numerical_features": [
+        "Car_Age",
+        "Kilometers",
+        "KM_Per_Year"
+    ],
+    "features": [
+        "Brand",
+        "Model Name",
+        "Model Variant",
+        "Car Type",
+        "Transmission",
+        "Fuel Type",
+        "Owner",
+        "State",
+        "Accidental",
+        "Car_Age",
+        "Kilometers",
+        "KM_Per_Year"
+    ],
+    "target": "Price",
+    "reference_year": 2023,
+    "model_type": "CatBoostRegressor"
+}
